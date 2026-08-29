@@ -1,0 +1,16 @@
+[project]
+name = "bth-sync-from-win"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-registry>=1.3.1",
+]
+
+[project.scripts]
+bth-sync-from-win = "bth_sync_from_win:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
